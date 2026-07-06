@@ -25,9 +25,15 @@ class Settings:
         os.getenv("SIMILARITY_THRESHOLD", 0.35)
     )
 
-    chroma_path: Path = Path(
-        os.getenv("CHROMA_PATH", "./chroma_db")
-    )
+    project_root: Path = Path(__file__).resolve().parent.parent
+
+    data_directory: Path = project_root / "data"
+    raw_data_directory: Path = data_directory / "raw"
+    processed_data_directory: Path = data_directory / "processed"
+
+    chroma_directory: Path = project_root / "chroma_db"
+
+    logs_directory: Path = project_root / "logs"
 
 
 settings = Settings()
