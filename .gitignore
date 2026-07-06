@@ -19,3 +19,15 @@ evaluation/results/
 
 # VS Code
 .vscode/
+
+# Hugging Face cache (optional)
+.cache/
+
+# Python
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

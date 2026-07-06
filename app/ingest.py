@@ -58,8 +58,6 @@ def load_documents(data_directory: Path):
                 f"Failed to load {file_path.name}: {error}"
             )
 
-    logger.info(
-        f"Loaded {len(documents)} document pages."
-    )
+    
 
     return documents

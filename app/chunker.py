@@ -22,7 +22,7 @@ def chunk_documents(documents):
 
     chunks = splitter.split_documents(documents)
 
-    logger.info(f"Generated {len(chunks)} chunks.")
+  
 
     for index, chunk in enumerate(chunks):
 
