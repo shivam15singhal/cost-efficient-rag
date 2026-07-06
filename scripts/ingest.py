@@ -7,6 +7,11 @@ from app.logger import logger
 from app.store_chunks import store_chunks
 from app.vector_store import get_vector_store
 
+logger.info(
+    f"Chunk Size={settings.chunk_size}, "
+    f"Overlap={settings.chunk_overlap}, "
+    f"Top-K={settings.top_k}"
+)
 
 def main():
 

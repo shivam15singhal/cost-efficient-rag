@@ -7,6 +7,7 @@ from langchain_community.document_loaders import (
 )
 
 from app.logger import logger
+from app.config import settings
 
 
 SUPPORTED_EXTENSIONS = {
@@ -58,6 +59,7 @@ def load_documents(data_directory: Path):
                 f"Failed to load {file_path.name}: {error}"
             )
 
-    
+    for doc in docs:
+        doc.metadata["source"] = str(file_path.relative_to(settings.raw_data_directory))
 
     return documents
