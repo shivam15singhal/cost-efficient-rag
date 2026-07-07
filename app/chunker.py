@@ -27,8 +27,7 @@ def chunk_documents(documents):
 
     for index, chunk in enumerate(chunks):
         source = Path(
-        chunk.metadata.get("source", "unknown")
-        )
+        chunk.metadata.get("source", "unknown"))
         chunk.metadata["chunk_id"] = generate_chunk_id(chunk.page_content)
         chunk.metadata["chunk_index"] = index
         chunk.metadata["filename"] = source.name
