@@ -11,9 +11,13 @@ app = FastAPI(
 
 class QueryRequest(BaseModel):
     question: str
+    filename: str | None = None
 
 
 @app.post("/query")
 def query(request: QueryRequest):
 
-    return answer_question(request.question)
+    return answer_question(
+    request.question,
+    request.filename,
+)

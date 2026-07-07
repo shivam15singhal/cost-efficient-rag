@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "question": "What is Python?",
+        "relevant_source": "python.md"
+    },
+    {
+        "id": 2,
+        "question": "What programming paradigm does Python support?",
+        "relevant_source": "python.md"
+    },
+    {
+        "id": 3,
+        "question": "Where is Python commonly used?",
+        "relevant_source": "python.md"
+    },
+
+    {
+        "id": 4,
+        "question": "What is machine learning?",
+        "relevant_source": "machine_learning.md"
+    },
+    {
+        "id": 5,
+        "question": "Is machine learning a subset of artificial intelligence?",
+        "relevant_source": "machine_learning.md"
+    },
+    {
+        "id": 6,
+        "question": "Name one type of machine learning.",
+        "relevant_source": "machine_learning.md"
+    },
+
+    {
+        "id": 7,
+        "question": "What is FastAPI?",
+        "relevant_source": "fastapi.md"
+    },
+    {
+        "id": 8,
+        "question": "What documentation does FastAPI generate automatically?",
+        "relevant_source": "fastapi.md"
+    },
+    {
+        "id": 9,
+        "question": "Does FastAPI support asynchronous programming?",
+        "relevant_source": "fastapi.md"
+    },
+
+    {
+        "id": 10,
+        "question": "What is ChromaDB?",
+        "relevant_source": "chromadb.md"
+    },
+    {
+        "id": 11,
+        "question": "What does ChromaDB store?",
+        "relevant_source": "chromadb.md"
+    },
+    {
+        "id": 12,
+        "question": "What kind of search does ChromaDB support?",
+        "relevant_source": "chromadb.md"
+    },
+
+    {
+        "id": 13,
+        "question": "What is Retrieval-Augmented Generation?",
+        "relevant_source": "rag.md"
+    },
+    {
+        "id": 14,
+        "question": "What are the two main components combined in RAG?",
+        "relevant_source": "rag.md"
+    },
+    {
+        "id": 15,
+        "question": "What happens before the language model generates an answer in RAG?",
+        "relevant_source": "rag.md"
+    },
+
+    {
+        "id": 16,
+        "question": "What is Gemini?",
+        "relevant_source": "gemini.md"
+    },
+    {
+        "id": 17,
+        "question": "Who developed Gemini?",
+        "relevant_source": "gemini.md"
+    },
+    {
+        "id": 18,
+        "question": "What are Gemini Flash models optimized for?",
+        "relevant_source": "gemini.md"
+    }
+]

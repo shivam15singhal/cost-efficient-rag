@@ -4,16 +4,24 @@ from app.schemas import RetrievalResult, RetrievedChunk
 from app.vector_store import get_vector_store
 
 
-def retrieve(question: str) -> RetrievalResult:
+def retrieve(question: str,filename: str | None = None,) -> RetrievalResult:
     
 
     vector_store = get_vector_store()
 
-    results = vector_store.similarity_search_with_relevance_scores(
-        question,
-        k=settings.top_k,
-    )
+    search_kwargs = {
+    "k": settings.top_k
+}  
+    
+    if filename:
+        search_kwargs["filter"] = {
+        "filename": filename
+    }
 
+    results = vector_store.similarity_search_with_relevance_scores(
+    question,
+    **search_kwargs,
+)
     retrieved_chunks = []
 
     for document, score in results:

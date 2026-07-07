@@ -1,0 +1,97 @@
+[
+    {
+        "id": 1,
+        "question": "What is Python?",
+        "answer": "Python is a high-level programming language that supports object-oriented programming and is widely used for machine learning."
+    },
+    {
+        "id": 2,
+        "question": "What programming paradigm does Python support?",
+        "answer": "Python supports object-oriented programming."
+    },
+    {
+        "id": 3,
+        "question": "Where is Python commonly used?",
+        "answer": "Python is commonly used for machine learning."
+    },
+
+    {
+        "id": 4,
+        "question": "What is machine learning?",
+        "answer": "Machine learning is a subset of artificial intelligence that enables computers to learn from data without being explicitly programmed."
+    },
+    {
+        "id": 5,
+        "question": "Is machine learning a subset of artificial intelligence?",
+        "answer": "Yes, machine learning is a subset of artificial intelligence."
+    },
+    {
+        "id": 6,
+        "question": "Name one type of machine learning.",
+        "answer": "One type of machine learning is supervised learning."
+    },
+
+    {
+        "id": 7,
+        "question": "What is FastAPI?",
+        "answer": "FastAPI is a modern Python web framework for building REST APIs."
+    },
+    {
+        "id": 8,
+        "question": "What documentation does FastAPI generate automatically?",
+        "answer": "FastAPI automatically generates Swagger UI documentation."
+    },
+    {
+        "id": 9,
+        "question": "Does FastAPI support asynchronous programming?",
+        "answer": "Yes, FastAPI supports asynchronous programming."
+    },
+
+    {
+        "id": 10,
+        "question": "What is ChromaDB?",
+        "answer": "ChromaDB is an open-source vector database designed for AI applications."
+    },
+    {
+        "id": 11,
+        "question": "What does ChromaDB store?",
+        "answer": "ChromaDB stores vector embeddings and metadata."
+    },
+    {
+        "id": 12,
+        "question": "What kind of search does ChromaDB support?",
+        "answer": "ChromaDB supports similarity search."
+    },
+
+    {
+        "id": 13,
+        "question": "What is Retrieval-Augmented Generation?",
+        "answer": "Retrieval-Augmented Generation is a technique that combines document retrieval with a language model."
+    },
+    {
+        "id": 14,
+        "question": "What are the two main components combined in RAG?",
+        "answer": "RAG combines document retrieval with language model generation."
+    },
+    {
+        "id": 15,
+        "question": "What happens before the language model generates an answer in RAG?",
+        "answer": "Relevant documents are retrieved before the language model generates an answer."
+    },
+
+    {
+        "id": 16,
+        "question": "What is Gemini?",
+        "answer": "Gemini is Google's family of generative AI models."
+    },
+    {
+        "id": 17,
+        "question": "Who developed Gemini?",
+        "answer": "Gemini was developed by Google."
+    },
+    {
+        "id": 18,
+        "question": "What are Gemini Flash models optimized for?",
+        "answer": "Gemini Flash models are optimized for low latency and low cost."
+    }
+]
