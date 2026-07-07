@@ -14,3 +14,9 @@ class RetrievalResult(BaseModel):
     has_context: bool
     chunks: list[RetrievedChunk]
     retrieved_count: int
+
+class QueryResponse(BaseModel):
+    question: str
+    answer: str
+    retrieved_chunks: int
+    sources: list[str]    

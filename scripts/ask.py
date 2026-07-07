@@ -1,5 +1,4 @@
-from app.llm import generate_answer
-from app.retriever import retrieve
+from app.rag_service import answer_question
 
 
 def main():
@@ -11,16 +10,11 @@ def main():
         if question.lower() == "exit":
             break
 
-        retrieval = retrieve(question)
-
-        answer = generate_answer(
-            question,
-            retrieval,
-        )
+        result = answer_question(question)
 
         print()
 
-        print(answer)
+        print(result["answer"])
 
         print()
 
